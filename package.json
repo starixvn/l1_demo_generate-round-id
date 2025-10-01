@@ -1,0 +1,21 @@
+{
+    "name": "test-hash-64",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "better-sqlite3": "^11.10.0",
+        "xxhash-wasm": "^1.1.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.0.0"
+    }
+}
